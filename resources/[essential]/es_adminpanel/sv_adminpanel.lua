@@ -2,7 +2,7 @@
 require "resources/essentialmode/lib/MySQL"
 
 -- MySQL:open("IP", "databasname", "user", "password")
-MySQL:open("127.0.0.1", "gta5_gamemode_essential", "root", "123")
+MySQL:open("83.254.211.185", "gta5_gamemode_essential", "brp_mysql", "6qQSNKnyDs0JmY7z")
 
 -- Rcon commands
 AddEventHandler('rconCommand', function(commandName, args)
